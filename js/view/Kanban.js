@@ -24,6 +24,10 @@ export default class Kanban {
             {
                 id:3,
                 title: "Completed"
+            },
+            {
+                id:4,
+                title: "Trash"
             }
         ]
     }

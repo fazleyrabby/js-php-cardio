@@ -44,6 +44,7 @@ export default class KanbanAPI {
         //update column and position
 
         if(newProps.columnId !== undefined && newProps.position !== undefined){
+            console.log(data)
             const targetColumn = data.find(column => column.id == newProps.columnId)
             if(!targetColumn){
                 throw new Error("Target Column not found!");
@@ -91,6 +92,10 @@ function read(){
             },
             {
                 id:3,
+                items:[]
+            },
+            {
+                id:4,
                 items:[]
             },
         ];

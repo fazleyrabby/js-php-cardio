@@ -1,17 +1,30 @@
+body{
+	width: 100vw;
+	height: 100vh;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+}
+
 .kanban {
 	display: flex;
 	padding: 30px;
+	margin: 1rem;
 	width: 750px;
 	background: #009578;
 	border-radius: 5px;
+	overflow: scroll;
 }
 
 .kanban * {
-	font-family: sans-serif;
+	font-family: system-ui,sans-serif;
 }
 
 .kanban__column {
 	flex: 1;
+	min-width: 200px;
 }
 
 .kanban__column:not(:last-child) {
