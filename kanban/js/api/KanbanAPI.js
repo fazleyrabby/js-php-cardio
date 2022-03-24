@@ -58,7 +58,6 @@ export default class KanbanAPI {
         } 
         save(data);
         console.log(data)
-        
     }
 
     static deleteItem(itemId){

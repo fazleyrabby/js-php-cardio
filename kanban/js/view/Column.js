@@ -16,7 +16,7 @@ export default class Column {
         this.elements.title.textContent = title;
         this.elements.items.appendChild(topDropZone)
 
-        this.elements.addItem.addEventListener("click", ()=> {
+        this.elements.addItem.addEventListener("click", () => {
             //TODO: add item
             const newItem = KanbanAPI.insertItem(id, "");
 
