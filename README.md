@@ -1,1 +1,1 @@
-***Javascript Exercise to improve myself***
+**Javascript Exercise to improve myself**
