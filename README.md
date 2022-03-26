@@ -1,1 +1,1 @@
-**Javascript Exercise to improve myself**
+**Javascript And PHP Exercise to improve myself**
